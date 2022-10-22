@@ -36,13 +36,13 @@
 }
 
 .header_circle-int{
-  width: 36px;
+  width: 37px;
   aspect-ratio: 1;
   position: absolute;
   border-radius: 50%;
   background-color: #222;  
   left: 50%;
-  transform: translate(-50%, 7px);
+  transform: translate(-50%, 6px);
   border: 7.5px solid white;
   cursor: pointer;
 
@@ -64,16 +64,16 @@
 }
 
 .header-icon{
-  font-size: .7rem;
-  color: var(--color-grey);
+  font-size: .8rem;
+  color: var(--color-white);
 }
 
 .dark-mode .header-icon {
-  color: yellow;
+  color: var(--color-red);
 }
 
 .dark-mode #toggle {
-  background-color: yellow;
+  background-color: var(--color-red);
 }
 .dark-mode .toggle-inner {
   background-color: #1a202c;

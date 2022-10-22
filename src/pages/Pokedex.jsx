@@ -7,6 +7,9 @@ import SelectByType from "../components/pokedex/SelectByType";
 import "./styles/pokedex.css";
 import Pagination from "./Pagination";
 import SearchModal from "../components/pokedex/SearchModal";
+import pokeball from '../assets/images/pokedex/pokeball.png';
+import logo from '../assets/images/pokedex/logo.svg'
+import pokegif from '../assets/images/pokedex/pokegif.gif'
 
 const Pokedex = () => {
   const [pokemons, setPokemons] = useState();
@@ -65,12 +68,12 @@ const Pokedex = () => {
         <div className="pokedex_logo-container">
         <img
             className="pokedex_logo"
-            src="/src/images/pokedex/pokeball.png"
+            src={pokeball}
             alt=""
           />
         <img
           className="pokedex_logo"
-          src="/src/images/pokedex/logo.svg"
+          src={logo}
           alt=""
         />
         </div>
@@ -79,7 +82,7 @@ const Pokedex = () => {
         <button className="pokedex-main_btn" onClick={handleOpenSearch}>
           <img
             className="btn_icon"
-            src="/src/images/pokedex/pokegif.gif"
+            src={pokegif}
             alt=""
           />
         </button>

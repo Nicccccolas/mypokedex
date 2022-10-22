@@ -141,6 +141,10 @@
   font-size: 1rem;
   border-radius: 5px;
 }
+
+.detail_info-span{
+  color: var(--color-grey);
+}
 .dark-mode .detail_info-items {
   color: var(--color-white);
 }
@@ -229,23 +233,23 @@
 }
 
 .bg_sprites-ice{
-  background: linear-gradient(0deg, rgb(255, 255, 255)  47%,#e35825 48%);
+  background: linear-gradient(0deg, rgb(255, 255, 255)  47%,#6fbedf 48%);
 }
 
 .bg_sprites-dragon{
-  background: linear-gradient(0deg, rgb(255, 255, 255)  47%,#e35825 48%);
+  background: linear-gradient(0deg, rgb(255, 255, 255)  47%,#478a93 48%);
 }
 
 .bg_sprites-dark{
-  background: linear-gradient(0deg, rgb(255, 255, 255)  47%,#e35825 48%);
+  background: linear-gradient(0deg, rgb(255, 255, 255)  47% #2b2b2b 48%);
 }
 
 .bg_sprites-fairy{
-  background: linear-gradient(0deg, rgb(255, 255, 255)  47%,#e35825 48%);
+  background: linear-gradient(0deg, rgb(255, 255, 255)  47%,#971b45 48%);
 }
 
 .bg_sprites-rock{
-  background: linear-gradient(0deg, rgb(255, 255, 255)  47%,#e35825 48%);
+  background: linear-gradient(0deg, rgb(255, 255, 255)  47%,#7e7e7e 48%);
 }
 
 

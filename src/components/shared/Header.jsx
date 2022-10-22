@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import './styles/header.css'
+import pokedex from '../../assets/images/home/pokedex.png'
+
 
 const Header = () => {
 
@@ -41,7 +43,7 @@ const handleHome = () => {
         </div>
       </div>
     </div>
-    <img className="header_img" onClick={handleHome} src="/src/images/home/pokedex.png" alt="Pokedex" />
+    <img className="header_img" onClick={handleHome} src={pokedex} alt="Pokedex" />
     </>
   );
 };

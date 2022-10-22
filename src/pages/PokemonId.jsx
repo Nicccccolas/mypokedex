@@ -5,6 +5,7 @@ import Pokemon404 from "../components/pokedexId/Pokemon404";
 import Movements from "../components/pokedexId/Movements";
 import "./styles/pokemonId.css";
 import Stats from "../components/pokedexId/Stats";
+import logo from "../assets/images/pokedex/logo.svg";
 
 const PokemonId = () => {
   const { id } = useParams();
@@ -30,12 +31,10 @@ const PokemonId = () => {
   }
   return (
     <div>
-      <Link className="detail_return" to='/pokedex'>Return &#8592;</Link>
-      <img
-        className="detail_logo"
-        src="./src/images/pokedex/logo.svg"
-        alt=""
-      />
+      <Link className="detail_return" to="/pokedex">
+        Return &#8592;
+      </Link>
+      <img className="detail_logo" src={logo} alt="" />
       <article className="detail-container">
         <div className="detail_card">
           <header className={`detail_header bg-${pokemon?.types[0].type.name}`}>

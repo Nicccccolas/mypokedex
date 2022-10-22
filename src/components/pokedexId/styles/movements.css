@@ -32,13 +32,11 @@
   padding: 4px 5px;
   box-shadow: 3px 0 4px var(--color-grey-dark);
   border-radius: 2rem;
-  color: black;
-  -webkit-text-stroke: .001px white;
-  /* color: transparent;  */
+  color: rgb(123, 123, 123);
 }
 
 .movements_items:hover{
-  filter: brightness(1.2);
+  filter: brightness(1.1);
   color: white;
   transform: scale(1.06);
 }
