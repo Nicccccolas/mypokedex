@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./styles/searchModal.css";
-import search from '../../assets/images/pokedex/searchImg.gif'
+import searchGif from '../../assets/images/pokedex/searchImg.gif'
 
 const SearchModal = ({ setSearchIsClose }) => {
   const navigate = useNavigate();
@@ -19,7 +19,7 @@ const SearchModal = ({ setSearchIsClose }) => {
     <div className="form-modal_container">
       <img
         className="form-modal_img"
-        src={search}
+        src={searchGif}
         alt=""
       />
       <h2 className="form-modal_title">What is your favourite Pokemon?</h2>
