@@ -138,6 +138,12 @@
     display: none;  
   }
 
+  .pokedex-aside{
+    color: white;
+  background-color: rgba(24, 24, 24, 0.95);
+  backdrop-filter: blur(3.5px);
+  }
+
   .main-container{
     display: block;
     position: relative;
