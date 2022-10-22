@@ -1,0 +1,39 @@
+.pagination {
+  margin: 10px auto;
+  max-width: 70%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.pagination:last-child{
+  margin-bottom: 1rem;
+}
+
+.pagination_container{
+  margin: 0 auto;
+  max-width: 70%;
+  display: flex;
+  gap: 8px;
+  font-family: 'Silkscreen', cursive;
+}
+
+.pagination_prev, 
+.pagination_next,
+.pagination_first,
+.pagination_last, 
+.pagination_page{
+  cursor: pointer;
+  font-size: .9rem;
+  width: 35px;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination_active {
+  background-color: var(--color-red);
+  color: white;
+  border-radius: 5px;
+}

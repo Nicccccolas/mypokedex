@@ -1,0 +1,77 @@
+.form-modal_container{
+  position: relative;
+  transform: translateY(-10%); 
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;;
+}
+
+.form-modal_img{
+  margin: 0 auto;
+  width: 15rem;
+}
+
+.form-modal{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2.5rem 3rem 1.5rem 3rem; 
+  background-color: var(--color-red);
+  border-radius: 10px;
+  border: 5px solid var(--color-white);
+}
+
+.form-modal_title{
+  font-family: 'Silkscreen', cursive;
+  color: white;
+  background-color: var(--color-red);
+  border: 5px solid var(--color-white);
+  border-radius: 10px;
+  padding: 10px 2.5em;
+  font-weight: 400;
+}
+
+.form-modal_close{
+  color: var(--color-white);
+  font-size: 1.3rem;
+  cursor: pointer;
+  position: absolute;
+  right: 15px;
+  top:15px
+}
+
+.form-modal_btn {
+  font-family: 'Silkscreen', cursive;
+  color: var(--color-red);
+  background-color: var(--color-white);
+  margin: 0 auto;
+  width: 10rem;
+  height: 2rem;
+  border-radius: 7px;
+  cursor: pointer;
+  box-shadow: 10px 2px 10px #0004;
+}
+
+.form-modal_btn:hover {
+  filter: brightness(1.2);
+}
+
+.form-modal_input{
+  font-family: 'Silkscreen', cursive;
+  padding: 10px 10px;
+  box-shadow: 10px 2px 10px #0004;
+  font-size: 1.2rem;
+  height: 2.5rem;
+  text-align:justify;
+  border-radius: 7px;
+}
+
+.form-modal_input::placeholder{
+  text-align: center;
+  font-family: 'Silkscreen', cursive;
+  border: 2px solid black;
+  padding-left: 10px;
+  margin: 10px auto;
+  border-radius: 7px;
+}

@@ -1,0 +1,35 @@
+.error-container{
+margin: 0 auto;
+background: linear-gradient(to bottom, #d52a2a, rgba(86, 84, 84, 0.431));
+display: flex;
+flex-direction: column;
+align-items: center;
+min-height:84vh;
+font-family: 'Silkscreen', cursive;
+}
+
+.error_title{
+  transform: translateY(80px);
+  max-width: 500px;
+  font-size: 2.3rem;
+  text-align: center;
+}
+
+.error_img {
+  transform: translateY(20px);
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+  max-width: 25rem;
+}
+
+.error_return{
+  border-radius: 7px;
+  padding: 3px 4px;
+  background-color: var(--color-red);
+  cursor: pointer;
+  transform: translateY(-40px);
+}
+
+a{
+  color:black ;
+}

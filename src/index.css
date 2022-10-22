@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&family=Silkscreen&display=swap');
+
+/* ------ Variable CSS ------- */
+:root{
+  --color-red: #d52a2a;
+  --color-white: rgb(243, 243, 243);
+  --color-grey: rgba(220, 220, 220, 0.985);
+  --color-grey-dark:rgba(86, 84, 84, 0.431);
+  --color-black: rgb(0, 0, 0);
+  --color-yellow:rgb(229, 229, 222);
+}
+
+
+
+/* ------RESET------*/
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0%;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--color-grey);
+}
+
+body.dark-mode{
+  background-color: rgb(35, 35, 35);
+  color: grey;
+}
+
+h1, h2, h3, p, ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul{
+  padding-left: 0;
+  list-style: none;
+}
+
+img{
+  display: block;
+  width: 100%;
+}
+
+a{
+  font-family: inherit;
+  text-decoration: none;
+}
+
+input{
+  outline: none;
+  border: none;
+}
+
+button{
+  border: none;
+}

@@ -1,0 +1,20 @@
+.select-container{
+  cursor: pointer;
+  width: 60%;
+  height: 2rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  border: none;
+  padding: 0 1rem;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 0 4px 1px var(--color-white);
+  background-color: var(--color-red);
+  color: var(--color-white);
+  font-family: 'Silkscreen', cursive;
+  font-size: 1rem
+}
+
+.select_option-items{
+  font-size: 10px;
+
+}

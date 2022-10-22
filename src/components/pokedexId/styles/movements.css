@@ -1,0 +1,44 @@
+.movements-container{
+  width: 90%;
+  max-height: 700px;
+  box-shadow: 0 0 5px var(--color-grey-dark);
+  border-radius: 10px;
+  background-color: var(--color-white);
+}
+
+.dark-mode .movements-container{
+  box-shadow: 0 0 5px var(--color-grey);
+  border-radius: 10px;
+  background-color: var(--color-grey-dark);
+  color: var(--color-white);
+}
+
+.movements_title{
+  margin: 1rem 1.8rem;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.movements_list{
+  margin: 1rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-bottom: 1rem;
+}
+
+.movements_items{
+  font-size: .5rem;
+  padding: 4px 5px;
+  box-shadow: 3px 0 4px var(--color-grey-dark);
+  border-radius: 2rem;
+  color: black;
+  -webkit-text-stroke: .001px white;
+  /* color: transparent;  */
+}
+
+.movements_items:hover{
+  filter: brightness(1.2);
+  color: white;
+  transform: scale(1.06);
+}
