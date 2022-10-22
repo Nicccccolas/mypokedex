@@ -6,7 +6,7 @@ import Footer from "../components/shared/Footer";
 const Home = () => {
   return (
     <article className="pokedex">
-      <img className="pokedex_img" src="/img/home/pokedex.png" alt="Pokedex" />
+      <img className="pokedex_img" src="/src/images/home/pokedex.png" alt="Pokedex" />
       <header className="pokedex_header">
         <h2 className="pokedex_subtitle">Hi! Trainer</h2>
         <p className="pokedex_text">Give me your to see the pokedex</p>

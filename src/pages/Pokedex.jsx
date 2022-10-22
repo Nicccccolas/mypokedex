@@ -65,12 +65,12 @@ const Pokedex = () => {
         <div className="pokedex_logo-container">
         <img
             className="pokedex_logo"
-            src="../../public/img/pokedex/pokeball.png"
+            src="/src/images/pokedex/pokeball.png"
             alt=""
           />
         <img
           className="pokedex_logo"
-          src="../../public/img/pokedex/logo.svg"
+          src="/src/images/pokedex/logo.svg"
           alt=""
         />
         </div>
@@ -79,7 +79,7 @@ const Pokedex = () => {
         <button className="pokedex-main_btn" onClick={handleOpenSearch}>
           <img
             className="btn_icon"
-            src="../../../public/img/pokedex/pokegif.gif"
+            src="/src/images/pokedex/pokegif.gif"
             alt=""
           />
         </button>

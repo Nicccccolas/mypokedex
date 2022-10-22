@@ -18,7 +18,7 @@ const SearchModal = ({ setSearchIsClose }) => {
     <div className="form-modal_container">
       <img
         className="form-modal_img"
-        src="../../../public/img/pokedex/searchimg.gif"
+        src="/src/images/pokedex/searchimg.gif"
         alt=""
       />
       <h2 className="form-modal_title">What is your favourite Pokemon?</h2>

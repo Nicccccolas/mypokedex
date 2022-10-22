@@ -33,7 +33,7 @@ const PokemonId = () => {
       <Link className="detail_return" to='/pokedex'>Return &#8592;</Link>
       <img
         className="detail_logo"
-        src="../../public/img/pokedex/logo.svg"
+        src="./src/images/pokedex/logo.svg"
         alt=""
       />
       <article className="detail-container">

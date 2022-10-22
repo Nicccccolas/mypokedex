@@ -7,7 +7,7 @@ const Pokemon404 = () => {
   return (
     <div className='error-container'>
       <h1 className='error_title'>Pokemon not found </h1>
-      <img className='error_img' src="../../public/img/pokemonId/pokedexError.gif" alt="" />
+      <img className='error_img' src="/src/images/pokemonId/pokedexError.gif" alt="" />
       <div className='error_return'>
       <Link to='/pokedex'>Return to Pokedex</Link>
       </div>
